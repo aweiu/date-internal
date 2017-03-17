@@ -16,6 +16,8 @@ dateInternal.get(new Date('Fri Mar 16 2017 13:00:00 GMT+0800'), new Date('Fri Ma
 ```
 ## API
 ### get(date1, [date2])
-date1(Date): 待比较的日期1
+  date1(Date): 待比较的日期1
 
-date2(Date): 待比较的日期2。默认值：当前时间
+  date2(Date): 待比较的日期2。默认值：当前时间
+
+  返回：按初始化单位的从大到小顺序计算出的间隔数组

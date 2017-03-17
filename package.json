@@ -1,0 +1,18 @@
+{
+  "name": "date-internal",
+  "version": "0.0.1",
+  "description": "用户计算两个时间间隔，支持任意单位",
+  "keywords": [
+    "dateDiff",
+    "date-diff"
+  ],
+  "author": {
+    "name": "余阿伟"
+  },
+  "main": "date-internal.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aweiu/date-internal.git"
+  },
+  "license": "ISC"
+}

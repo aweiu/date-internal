@@ -4,7 +4,7 @@
 /**
  * @param {Array} unitSizes - 单位对应的毫秒数组
  */
-function DateInterval (unitSizes) {
+function TimeInterval (unitSizes) {
   this.unitSizes = unitSizes.sort((unitSize1, unitSize2) => unitSize1 < unitSize2)
 }
 /**
@@ -12,7 +12,7 @@ function DateInterval (unitSizes) {
  * @param {Date} [dateTime2 = now] - 待比较的日期2
  * @returns {Array} - 按初始化单位的从大到小顺序计算出的间隔数组
  */
-DateInterval.prototype.get = function (dateTime1, dateTime2 = new Date()) {
+TimeInterval.prototype.get = function (dateTime1, dateTime2 = new Date()) {
   var rs = []
   var interval = dateTime2 - dateTime1
   for (var i = 0; i < this.unitSizes.length; i++) {
@@ -24,4 +24,4 @@ DateInterval.prototype.get = function (dateTime1, dateTime2 = new Date()) {
   }
   return rs
 }
-export default DateInterval
+export default TimeInterval

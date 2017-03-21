@@ -1,18 +1,20 @@
 {
-  "name": "date-interval",
+  "name": "time-interval",
   "version": "0.0.1",
   "description": "用于计算两个时间间隔，支持任意单位",
   "keywords": [
     "dateDiff",
-    "date-diff"
+    "date-diff",
+    "date-interval",
+    "interval"
   ],
   "author": {
     "name": "余阿伟"
   },
-  "main": "date-interval.js",
+  "main": "time-interval.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aweiu/date-interval.git"
+    "url": "https://github.com/aweiu/time-interval.git"
   },
   "license": "ISC"
 }

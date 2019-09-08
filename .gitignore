@@ -2,3 +2,4 @@
 dev/dist
 dev/babel-all.js
 .editorconfig
+.idea

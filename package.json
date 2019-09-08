@@ -1,6 +1,6 @@
 {
   "name": "time-interval",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "用于计算两个时间间隔，支持任意单位",
   "keywords": [
     "dateDiff",
